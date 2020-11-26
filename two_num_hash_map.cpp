@@ -22,7 +22,7 @@ vector<int> two_num_hash_map::two_num(vector<int> nums,int target){
             rec.push_back(mymap[t]);
             return rec;
         }
-        mymap.insert(make_pair(nums[i],i));   
+        mymap.insert(make_pair(nums[i],i));  //make_pair() 小技巧
     }
     return rec;
 }
