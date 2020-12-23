@@ -24,4 +24,9 @@ for (int it : myvec)
 #### 练习
 - 605_can_place_flower
 前2可以直接判定，其他情况贪心分为三部分：前2，中间，后2
+
 Runtime: 32 ms, faster than 79.84% of C++ online submissions for Can Place Flowers.
+- 452_minimum_number_of_arrows_to_burst_balloons
+和435类似，贪心区间结尾值，只要开始值小于结尾值，就只用射一箭，用一个vector表示需要射的箭数（先置1）
+
+Runtime: 1228 ms, faster than 18.64% of C++ online submissions for Minimum Number of Arrows to Burst Balloons.
