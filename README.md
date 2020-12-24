@@ -30,3 +30,7 @@ Runtime: 32 ms, faster than 79.84% of C++ online submissions for Can Place Flowe
 和435类似，贪心区间结尾值，只要开始值小于结尾值，就只用射一箭，用一个vector表示需要射的箭数（先置1）
 
 Runtime: 1228 ms, faster than 18.64% of C++ online submissions for Minimum Number of Arrows to Burst Balloons.
+- 763_partition_labels
+建三个哈希表，存第一次出现位置，最后一次，出现次数
+
+Runtime: 20 ms, faster than 8.52% of C++ online submissions for Partition Labels.
