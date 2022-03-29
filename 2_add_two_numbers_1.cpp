@@ -49,6 +49,7 @@ ListNode *Solution::addTwoNumbers(ListNode *l1, ListNode *l2)
         //https://www.runoob.com/cplusplus/cpp-pointer-to-pointer.html
         curr = &((*curr)->next); //把next本身的地址赋给curr
         //-> 相当于 *，跳转 取内容
+        //next本身也是一个指针，赋值可以生成链表
         sum=0;
     }
     return answer;
