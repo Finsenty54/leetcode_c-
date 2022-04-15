@@ -2,6 +2,7 @@
     "git.ignoreLimitWarning": true,
     "files.associations": {
         "vector": "cpp",
-        "algorithm": "cpp"
+        "algorithm": "cpp",
+        "unordered_map": "cpp"
     }
 }
